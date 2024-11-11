@@ -1,3 +1,18 @@
+# Online Assignment | | Software Developer - Front End | UGX Systems
+
+Need to create a react Front End Project showen in the img given below
+![Alt text](ugx_ui_img.png)
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
