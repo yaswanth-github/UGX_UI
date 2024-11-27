@@ -1,70 +1,48 @@
-.UGX_App {
-  font-family: Arial, sans-serif;
-  color: #333;
+.App {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-header {
-  background-color: #ffffff;
+.main-content {
+  margin-left: 250px; /* to match sidebar width */
   padding: 20px;
+  background-color: #f9fafc;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgb(0, 0, 0);
-}
-
-.App-logo {
-  height: 40px;
-}
-
-.Search-bar {
-  padding: 5px;
-  font-size: 16px;
-}
-
-.App-nav {
   background-color: #ffffff;
-  padding: 10px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.App-nav ul {
-  list-style-type: none;
-  padding: 0;
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  background-color: #ffffff;
+  padding-top: 20px;
+  border-right: 1px solid #e0e0e0;
 }
 
-.App-nav li {
-  padding: 10px 0;
+.sidebar h2 {
+  color: #333;
+  font-size: 20px;
+  margin-left: 20px;
 }
 
-.App-main {
-  padding: 20px;
+.sidebar .MuiListItemText-root {
+  color: #666;
 }
 
-.Dashboard {
-  background-color: #f5faff;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.Block1, .Block2, .Block3, .Block4 {
-  background-color: #fff;
-  padding: 20px;
-  margin: 10px;
-  border: 1px solid #ddd;
+.sidebar .MuiListItem-root:hover {
+  background-color: #e3f2fd;
   border-radius: 5px;
-  flex: 1;
-  min-width: 200px;
-}
-
-.Sub-block1, .Sub-block2, .Sub-block3, .Sub-block4 {
-  margin-bottom: 20px;
-}
-
-.Sub-block1 h2, .Sub-block2 h2, .Sub-block3 h2, .Sub-block4 h2 {
-  margin: 0;
-  font-size: 18px;
-}
-
-.Sub-block1 p, .Sub-block2 p, .Sub-block3 p, .Sub-block4 p {
-  margin: 5px 0;
-  font-size: 16px;
 }

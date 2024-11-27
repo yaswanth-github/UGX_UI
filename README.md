@@ -3,15 +3,6 @@
 Need to create a react Front End Project showen in the img given below
 ![Alt text](ugx_ui_img.png)
 
-front ui using the img "ugx_ui_img.png" the front with header[logo(Power Analytics) and with Search bar] and left side with page nav the nav bar having(10 fileds like [Dashboard, layouts, Mailbox, Calendar, UI Demands, Forms, Tables, Charts, Maps, Profile]) and the Dashboard page divied into 4 blocks 1st block with (4 blocks) 2nd block with graph 3rd block with power consumption usage and last 4th block with current poert consumption (KW/H) Bar Graph
-
-
-
-
-
-
-
-
 
 # Getting Started with Create React App
 
